@@ -1,0 +1,413 @@
+body
+{
+padding-top: 130px;
+font-family: 'Open Sans', sans-serif;
+}
+
+/*geral*/
+.textc
+{
+    color: #9D3D16;
+}
+
+/*Navbar*/
+
+#logobar
+{
+    background-color: #333333 ;
+}
+
+#pbar
+{
+    background-color: #9D3D16 ;
+    padding-bottom: 0px;
+    margin-top: 65px;
+}
+
+@media (min-width: 992px ) 
+{
+    .dropdown:hover .dropdown-menu
+        {
+            display:block;
+            margin-top: 0;
+        }
+}
+
+.hrmain
+{
+    color: #9D3D16;
+}
+
+#socialcontM
+{
+    margin-top: 100px;
+   height: 300px; 
+}
+
+
+/*nivel-ensino*/
+
+
+#ctitle
+{
+    margin-top: 100px;
+}
+
+#cursos .row
+{
+margin-top: 40px;
+}
+
+.decptext
+{
+    margin-top: 70px;
+}
+
+.cursobtn
+{
+    height: 350px;
+    transition: opacity 0.15s;
+}
+
+.cursobtn:hover
+{
+opacity: 80%;
+}
+
+/*footer*/
+#footer
+{
+    background-color: #333333;
+    margin-top: 300px;
+    
+}
+
+#footer a
+{
+    color: white;
+    transition: color 0.15s;
+    
+}
+
+#footer a:hover
+{
+    color:#9D3D16;
+    
+}
+#footer .vr 
+{
+    color: #9D3D16;
+    width: 4px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+
+
+/*cursos*/
+
+.rowdisc
+{
+    width: 200px;
+}
+
+.ectsbtn
+{
+    border-color:#9D3D16;
+    color:#9D3D16;
+}    
+
+.ectsbtn:hover
+{
+    background-color: #333333;
+}    
+
+
+.headcord
+{
+    width: 100%;
+    border: none;
+    text-align: start;
+    background-color: #333333;
+    color: white;
+    padding: 15px;
+    transition: opacity 0.50s;
+}
+
+.headcord:hover
+{
+    opacity: 80%;
+}
+
+
+/*guia parental*/
+
+.famimg
+{
+    margin-top: -50px;
+    background-size:cover;
+    min-height: 80vh;
+    position: relative;
+    color: white;
+}
+
+#parentcont .vr 
+{
+    color: #9D3D16;
+    width: 1px;
+}
+
+#menu{
+    margin-top: 140px;
+}
+
+#menu a{
+    color: #333333;
+    margin-right: 40px;
+    margin-left: 40px;
+    transition: color 0.15s;
+}
+
+#menu a:hover{
+    color:#9D3D16;
+}
+
+#faq div{
+    background-color:#333333;
+}
+
+/*Erasmus*/
+
+.erasimg
+{
+    margin-top: -50px;
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    color: white;
+}
+
+.erastext
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+}
+
+
+/*home*/
+.mainimg
+{
+
+    margin-top: -50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75vh;
+    position: relative;
+    color: white;
+}
+
+.text
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+}
+
+#maiss
+{
+    color: #9D3D16;
+}
+
+#news
+{
+    margin-top: 90px;
+}
+
+.newsbtn
+{
+    transition: opacity 0.15s;
+}
+
+.newsbtn a{
+    color: #333333;
+}
+
+.newsbtn:hover
+{
+opacity: 80%;
+}
+
+
+.eventbtn
+{
+    transition: opacity 0.15s;
+}
+
+.eventbtn a{
+    color: #333333;
+}
+.eventbtn:hover
+{
+opacity: 80%;
+}
+
+.addcontainer
+{
+    background-color: #333333;
+    color: white;
+}
+
+.addcontainer button
+{
+    background:none;
+    border: none;
+}
+
+#estatisticas hr
+{
+    color: #9D3D16;
+}
+
+#rowesta
+{
+    background-color: #333333;
+}
+#rowesta{
+    --bs-gutter-x: 0;
+}
+
+
+/*news*/
+
+#search
+{
+    width: 400px;
+}
+
+.btnf
+{
+    background: none;
+    color:#333333;
+    border-color:#9D3D16;
+    transition: background-color 0.20s;
+}
+
+.btnf:hover
+{
+    background-color: #333333;
+    color: white;
+
+}
+
+.check
+{
+    border-color: #333333;
+    color: #333333;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#newsletter span{
+    border-color: #9D3D16;
+}
+
+/*-event*/
+.eventimg
+{
+
+    margin-top: -50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75vh;
+    position: relative;
+    color: white;
+}
+
+.eventtext
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+}
+
+
+/*galeriawork*/
+.workbtn
+{
+ transition: opacity 0.16s;
+}
+
+.workbtn:hover
+{
+ opacity: 90%;
+}
+
+
+/*work*/
+.workimg
+{
+
+    margin-top: -50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75vh;
+    position: relative;
+
+}
+
+
+.bolsasimg
+{
+
+    margin-top: -50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75vh;
+    position: relative;
+
+}
+
+/*esact*/
+
+.cbtn
+{
+transition: all 0.15s;
+}
+
+
+.cbtn:hover
+{
+    border-color: #9D3D16;
+    color: #9D3D16;
+}
+
+/*contactos*/
+#local .row{
+    background-color: #333333;
+    color: white;
+}
+
+
+/*erro*/
+#erro{
+    margin-top: -100px;
+}
+#num
+{
+font-size: 200px;
+color: #9D3D16;
+}
+
+.br{
+ color: #333333;
+}
