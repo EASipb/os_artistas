@@ -1,0 +1,120 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../imgs/icontab/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../../imgs/icontab/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../../imgs/icontab/favicon-16x16.png">
+        <link rel="manifest" href="../../../imgs/site.webmanifest">
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Licenciaturas - EsACT
+        <meta name="description" content="Conheça os cursos de 1.º ciclo de estudos superiores em diversas áreas, as condições de acesso, as propinas e os contactos.">
+        <meta name="keywords" content="Licenciaturas, EsACT, Candidaturas, Propinas, Cursos">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        link(rel="stylesheet" href="../../../css/general.css")
+    body
+        include ../includes/nav_en
+
+        section#descricao.mt-5
+            .container
+                .decptext.text-center
+                    h1 Degrees
+
+                .decptext.text-start
+                    p.lead A bachelor's degree course - 1st cycle of higher studies - comprises 180 ECTS credits, corresponding to 1 credit to 27 hours, spread over 6 curricular semesters (3 years), with 20 weeks of study, per semester, full-time (40 hours per week).
+                    p.lead.fw-bold The bachelor's degree is awarded to students who, through approval in all curricular units that are part of the course's study plan, have obtained 180 credits, demonstrating the ability to:
+                    p.lead a) develop and deepen the knowledge acquired;
+                    p.lead b) apply the knowledge acquired, in order to show a professional approach to the work developed;
+                    p.lead c) solve problems and construct and substantiate their own arguments;
+                    p.lead d) collecting, selecting and interpreting the relevant information, which enables the support of the recommended solutions and the judgments issued, including in the analysis the relevant social, scientific and ethical aspects;
+                    p.lead e) communicate information, ideas, problems and solutions to both specialist and non-specialist audiences;
+                    p.lead f) develop skills that enable lifelong learning with a high degree of autonomy.
+                    p.lead.fw-bold In addition to the general regime and the special regimes, there are special competitions for candidates who meet specific qualification conditions, enabling entry into higher education to new audiences, in a logic of lifelong learning:
+                    p.lead a) adults over 23 years of age who have passed specially appropriate tests designed to assess their ability to attend higher education;
+                    p.lead b) holders of a technological specialization course (non-tertiary post-secondary course);
+                    p.lead c) holders of a Higher Technical Professional Course (level 5 higher education course).
+                    p.lead The bachelor's degree allows the continuation of postgraduate studies, namely studies leading to the master's degree - 2nd cycle of higher studies.
+        section#propinas.mt-5
+            .container
+                .decptext.text-center 
+                    h2 Tuition
+
+                .text-center.mt-5
+                    h1.display-2.textc 697€ / Year
+                    
+
+        section#cursos
+            .container-lg 
+
+                #ctitle.text-center 
+                    h2 Courses
+
+                .row.my5.align-items-center.justify-content-center.g-3
+
+                    .col-8.col-sm-5.col-lg-4.col-md-4.col-xl-3.mb-2
+                        a.cursobtn(href="../cursos/l_cj.html").card.border-1.text-decoration-none
+                            img(src="../../../imgs/cursos.jpeg", alt="Comunicação e Jornalismo").card-img-top
+                            .card-body.text-center.py-4 
+                                h5.my-4.fw-bold Communication and Journalism
+
+
+                    .col-8.col-sm-5.col-lg-4.col-md-4.col-xl-3.mb-2
+                        a.cursobtn(href="../cursos/l_djd.html").card.border-1.text-decoration-none
+                            img(src="../../../imgs/cursos.jpeg", alt="Design de Jogos Digitais").card-img-top
+                            .card-body.text-center.py-4 
+                                h5.my-4.fw-bold Digital Game Design
+
+
+                    .col-8.col-sm-5.col-lg-4.col-md-4.col-xl-3.mb-2
+                        a.cursobtn(href="../cursos/l_gap.html").card.border-1.text-decoration-none
+                            img(src="../../../imgs/cursos.jpeg", alt="Gestão e Administração Pública").card-img-top
+                            .card-body.text-center.py-4 
+                                h5.my-4.fw-bold  Management and Public Administration
+
+                    .col-8.col-sm-5.col-lg-4.col-md-4.col-xl-3.mb-2
+                        a.cursobtn(href="../cursos/l_ic.html").card.border-1.text-decoration-none
+                            img(src="../../../imgs/cursos.jpeg", alt="Informática e Comunicações").card-img-top
+                            .card-body.text-center.py-4 
+                                h5.my-4.fw-bold Informatics and Communications
+
+
+                    .col-8.col-sm-5.col-lg-4.col-md-4.col-xl-3.mb-2
+                        a.cursobtn(href="../cursos/l_marketing.html").card.border-1.text-decoration-none
+                            img(src="../../../imgs/cursos.jpeg", alt="Marketing").card-img-top
+                            .card-body.text-center.py-4 
+                                h5.my-4.fw-bold  Marketing
+
+
+                    .col-8.col-sm-5.col-lg-4.col-md-4.col-xl-3.mb-2
+                        a.cursobtn(href="../cursos/l_multi.html").card.border-1.text-decoration-none
+                            img(src="../../../imgs/cursos.jpeg", alt="Multimédia").card-img-top
+                            .card-body.text-center.py-4 
+                                h5.my-4.fw-bold  Multimedia
+
+
+                    .col-8.col-sm-5.col-lg-4.col-md-4.col-xl-3.mb-2
+                        a.cursobtn(href="../cursos/l_sol.html").card.border-1.text-decoration-none
+                            img(src="../../../imgs/cursos.jpeg", alt="Solicitadoria ").card-img-top
+                            .card-body.text-center.py-4 
+                                h5.my-4.fw-bold Solicitor
+
+                    .col-8.col-sm-5.col-lg-4.col-md-4.col-xl-3.mb-2
+                        a.cursobtn(href="../cursos/l_turismo.html").card.border-1.text-decoration-none
+                            img(src="../../../imgs/cursos.jpeg", alt="Turismo").card-img-top
+                            .card-body.text-center.py-4 
+                                h5.my-4.fw-bold Tourism  
+
+
+
+
+
+        include ../includes/footer_en
+    
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+

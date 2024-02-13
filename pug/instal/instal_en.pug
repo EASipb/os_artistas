@@ -1,0 +1,279 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../imgs/icontab/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../../imgs/icontab/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../../imgs/icontab/favicon-16x16.png">
+        <link rel="manifest" href="../../../imgs/site.webmanifest">
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Instalações - EsACT
+        <meta name="description" content="Conheça as instalações e recursos da Escola Superior de Comunicação, Administração e Turismo do Instituto Politécnico de Bragança.">
+        <meta name="keywords" content="Instalações, EsACT, Salas, Estudios, Auditório, Bar, Cantina, CRA, Biblioteca">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        link(rel="stylesheet" href="../../../css/general.css")
+    body
+        include ../includes/nav_en
+
+        section#descricao.mt-5
+            .container
+                .decptext.text-center
+                    h1 Facilities
+
+                .decptext.text-center
+                    h2 Classrooms
+
+                .decptext.text-start        
+
+                    p.lead Rooms equipped with chairs lined up, a board in front, strategically placed desks, computer rooms with computers on standby, and an overhead projector ready to illuminate the screen. A space dedicated to training can be envisioned. Each element, an integral piece in the orchestra of learning, where students become protagonists of a unique educational narrative.
+            .container.d-flex.justify-content-center
+                .col-10.col-sm-10.col-md-10.col-lg-8.col-xl-8.my-3
+                    #carouselExampleAutoplaying.class.carousel.slide(data-bs-ride="carousel")
+                        .carousel-inner
+                            .carousel-item.active
+                                video(src="../../../vids/sala1.mov"  autoplay muted loop).w-100
+                            .carousel-item
+                                video(src="../../../vids/sala2.mov"  autoplay muted loop).w-100
+
+                            button.carousel-control-prev(type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev")
+                                span.carousel-control-prev-icon(aria-hidden="true")
+                                span.visually-hidden Previous
+
+                            button.carousel-control-next(type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next")
+                                span.carousel-control-next-icon(aria-hidden="true")
+                                span.visually-hidden Next
+
+            .container
+                .decptext.text-center
+                    h2 Studios
+
+                .decptext.text-start        
+
+                    p.lead In the meticulously equipped studios, the sound studio reveals itself with headphones waiting to translate notes into palpable experiences, while the imposing soundboard awaits precise commands. Simultaneously, in the video studio, every camera, light, and technical equipment is strategically placed, ready to bring visual narratives to life.
+            .container.d-flex.justify-content-center
+                .col-10.col-sm-10.col-md-10.col-lg-8.col-xl-8.my-3
+                    #carouselExampleAutoplaying2.class.carousel.slide(data-bs-ride="carousel")
+                        .carousel-inner
+                            .carousel-item.active
+                                img(src="../../../imgs/instal/sound1.jpeg", alt="estudantes no estudio de som").w-100
+                                .carousel-caption 
+                                    h4 EsACT Sound Studio
+
+                            .carousel-item
+                                img(src="../../../imgs/instal/sound2.jpeg", alt="mesa de misturas").w-100
+                                .carousel-caption 
+                                    h4 EsACT Sound Studio
+
+
+                            .carousel-item
+                                img(src="../../../imgs/instal/video1.jpeg", alt="camera de estudio").w-100
+                                .carousel-caption 
+                                    h4 EsACT Video Studio
+
+                            .carousel-item
+                                img(src="../../../imgs/instal/video2.jpeg", alt="estudantes em gravações").w-100
+                                .carousel-caption 
+                                    h4 EsACT Video Studio
+
+                            .carousel-item
+                                img(src="../../../imgs/esact.jpg", alt="esact").w-100
+                                .carousel-caption 
+                                    h4 EsACT Motion-Capture Studio
+
+                            .carousel-item
+                                img(src="../../../imgs/esact.jpg", alt="esact").w-100
+                                .carousel-caption 
+                                    h4 EsACT Motion-Capture Studio
+
+
+
+                            button.carousel-control-prev(type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev")
+                                span.carousel-control-prev-icon(aria-hidden="true")
+                                span.visually-hidden Previous
+
+                            button.carousel-control-next(type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next")
+                                span.carousel-control-next-icon(aria-hidden="true")
+                                span.visually-hidden Next
+
+
+            .container
+                .decptext.text-center
+                    h2 Auditorium and Viewing Room
+
+                .decptext.text-start        
+
+                    p.lead The EsACT auditorium is a modern and well-equipped space that can accommodate up to X people. It is often used for lectures, presentations, conferences, and other events. The auditorium is equipped with state-of-the-art sound and lighting equipment and has a projection booth that allows for the exhibition of various types of presentations.
+                    p.lead The viewing room of the School of Communication, Administration and Tourism (EsACT) is a more intimate and cozy space that can accommodate up to X people. It is often used for film projections, documentaries, and other audiovisual presentations. The viewing room is equipped with high-quality sound and image equipment that allows the exhibition of various types of presentations.
+            .container.d-flex.justify-content-center
+                .col-10.col-sm-10.col-md-10.col-lg-8.col-xl-8.my-3
+                    #carouselExampleAutoplaying3.class.carousel.slide(data-bs-ride="carousel")
+                        .carousel-inner
+                            .carousel-item.active
+                                img(src="../../../imgs/instal/audit1.jpeg", alt="auditório da esact").w-100
+                                .carousel-caption 
+                                    h4 EsACT Auditorium
+
+                            .carousel-item
+                                img(src="../../../imgs/instal/audit2.jpeg", alt="alunos em palestra").w-100
+                                .carousel-caption 
+                                    h4 EsACT Auditorium
+
+
+                            .carousel-item
+                                img(src="../../../imgs/esact.jpg", alt="esact").w-100
+                                .carousel-caption 
+                                    h4 EsACT Viewing Room
+
+                            .carousel-item
+                                img(src="../../../imgs/esact.jpg", alt="esact").w-100
+                                .carousel-caption 
+                                    h4 EsACT Viewing Room
+
+
+
+                            button.carousel-control-prev(type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="prev")
+                                span.carousel-control-prev-icon(aria-hidden="true")
+                                span.visually-hidden Previous
+
+                            button.carousel-control-next(type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="next")
+                                span.carousel-control-next-icon(aria-hidden="true")
+                                span.visually-hidden Next
+
+
+            .container
+                .decptext.text-center
+                    h2 CRA
+
+                .decptext.text-start        
+
+                    p.lead  The Audiovisual Resource Centre (CRA) of the School of Communication, Administration and Tourism (EsACT) of the Polytechnic Institute of Bragança is a resource centre dedicated to the management and provision of varied audiovisual equipment to ESACT teachers and students, supporting the entire structure of audiovisual technical equipment necessary for the academic community in which it operates. The CRA is a space that offers quality equipment for students of multimedia, digital game design and communication and journalism to request.
+            
+            .container.d-flex.justify-content-center.py-5 
+                a(href="http://reservas.esact.ipb.pt/Web/index.php?redirect=%2FWeb%2Fdashboard.php%3F" target="_blank").ectsbtn.btn.btn-outline-secondary.rounded-pill.px-4 EsACT Reservations
+            
+            .container.d-flex.justify-content-center
+                .col-10.col-sm-10.col-md-10.col-lg-8.col-xl-8.my-3
+                    #carouselExampleAutoplaying4.class.carousel.slide(data-bs-ride="carousel")
+                        .carousel-inner
+                            .carousel-item.active
+                                img(src="../../../imgs/esact.jpg", alt="esact").w-100
+
+
+                            .carousel-item
+                                img(src="../../../imgs/esact.jpg", alt="esact").w-100
+
+
+
+                            button.carousel-control-prev(type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="prev")
+                                span.carousel-control-prev-icon(aria-hidden="true")
+                                span.visually-hidden Previous
+
+                            button.carousel-control-next(type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="next")
+                                span.carousel-control-next-icon(aria-hidden="true")
+                                span.visually-hidden Next
+
+
+
+
+
+
+
+            .container
+
+                .decptext.text-center
+                    h2 Bar
+
+                .decptext.text-start        
+
+                    p.lead EsACT's bar is a warm and relaxed space that offers a variety of drinks and snacks. It is often used by students as a place to meet and socialize. The bar is located on the EsACT campus and is open throughout the day.
+            .container.d-flex.justify-content-center
+                .col-10.col-sm-10.col-md-10.col-lg-8.col-xl-8.my-3
+                    #carouselExampleAutoplaying5.class.carousel.slide(data-bs-ride="carousel")
+                        .carousel-inner
+                            .carousel-item.active
+                                video(src="../../../vids/bar1.mov"  autoplay muted loop).w-100
+                            .carousel-item
+                                video(src="../../../vids/bar2.mov"  autoplay muted loop).w-100
+
+                            button.carousel-control-prev(type="button" data-bs-target="#carouselExampleAutoplaying5" data-bs-slide="prev")
+                                span.carousel-control-prev-icon(aria-hidden="true")
+                                span.visually-hidden Previous
+
+                            button.carousel-control-next(type="button" data-bs-target="#carouselExampleAutoplaying5" data-bs-slide="next")
+                                span.carousel-control-next-icon(aria-hidden="true")
+                                span.visually-hidden Next
+
+
+            .container
+
+                .decptext.text-center
+                    h2 Canteen
+
+                .decptext.text-start        
+
+                    p.lead The EsACT canteen is a space where students can enjoy healthy and tasty meals at affordable prices. It offers a variety of dining options, including vegetarian and vegan dishes. The canteen is located on the EsACT campus and is open throughout the day
+            .container.d-flex.justify-content-center
+                .col-10.col-sm-10.col-md-10.col-lg-8.col-xl-8.my-3
+                    #carouselExampleAutoplaying6.class.carousel.slide(data-bs-ride="carousel")
+                        .carousel-inner
+                            .carousel-item.active
+                                video(src="../../../vids/cant1.mov"  autoplay muted loop).w-100
+                            .carousel-item
+                                video(src="../../../vids/cant2.mov"  autoplay muted loop).w-100
+
+                            button.carousel-control-prev(type="button" data-bs-target="#carouselExampleAutoplaying6" data-bs-slide="prev")
+                                span.carousel-control-prev-icon(aria-hidden="true")
+                                span.visually-hidden Previous
+
+                            button.carousel-control-next(type="button" data-bs-target="#carouselExampleAutoplaying6" data-bs-slide="next")
+                                span.carousel-control-next-icon(aria-hidden="true")
+                                span.visually-hidden Next
+
+
+            .container
+                .decptext.text-center
+                    h2 Library
+
+                .decptext.text-start        
+
+                    p.lead The EsACT library is a modern and well-equipped space that offers a wide variety of resources for students. It has a vast collection of books, periodicals, and other reference materials. The library also provides access to computers, printers, and other office equipment.
+            .container.d-flex.justify-content-center
+                .col-10.col-sm-10.col-md-10.col-lg-8.col-xl-8.my-3
+                    #carouselExampleAutoplaying7.class.carousel.slide(data-bs-ride="carousel")
+                        .carousel-inner
+                            .carousel-item.active
+                                img(src="../../../imgs/instal/bib1.jpg", alt="parteleiras com livros e revistas").w-100
+
+                            .carousel-item
+                                img(src="../../../imgs/instal/bib2.jpg", alt="parteleiras com livros").w-100
+
+                            .carousel-item
+                                img(src="../../../imgs/instal/bib3.jpg", alt="parteleiras com livros e mesas").w-100
+
+                            .carousel-item
+                                img(src="../../../imgs/instal/bib4.jpg", alt="parteleiras com livros").w-100
+
+                            .carousel-item
+                                img(src="../../../imgs/instal/bib5.jpg", alt="espaço com computadores").w-100
+
+                            button.carousel-control-prev(type="button" data-bs-target="#carouselExampleAutoplaying7" data-bs-slide="prev")
+                                span.carousel-control-prev-icon(aria-hidden="true")
+                                span.visually-hidden Previous
+
+                            button.carousel-control-next(type="button" data-bs-target="#carouselExampleAutoplaying7" data-bs-slide="next")
+                                span.carousel-control-next-icon(aria-hidden="true")
+                                span.visually-hidden Next
+
+
+        include ../includes/footer_en
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
