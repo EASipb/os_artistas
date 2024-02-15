@@ -1,0 +1,28 @@
+.container.eventbtn.card.px-0
+    a.text-decoration-none(href="")
+        include ../atomos/img
+
+    .card-body.p-2.addcontainer.pb-0
+        .row.d-flex.align-items-center.pb-0
+            .col.d-flex.align-items-center
+                include ../moleculas/h4
+                include ../moleculas/p
+            .col.d-flex.justify-content-end  
+                button
+                    a(target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MmRhcmJmcXZvcXY4cWVtcWNtY3I4Mzg1Nm8gZWR1YXJkb3NlYmFzdGlhbzk0OEBt&amp;" img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_pt-BR.gif")
+                        include ../moleculas/h4
+                            i.bi.bi-calendar-plus.text-light
+
+    a.text-decoration-none(href="")
+        .card-body
+                include ../moleculas/h5
+                include ../moleculas/p
+    small.px-3 Dia Todo - Auditório
+        .col.d-flex.justify-content-end
+            h6.fw-bold.pe-2.pt-1 Share:
+            a(href="https://www.instagram.com/share?") 
+                include ../moleculas/h4 
+                    i.bi.bi-instagram
+            a(href="https://www.facebook.com/sharer/sharer.php?").ms-2
+                include ../moleculas/h4 
+                    i.bi.bi-facebook

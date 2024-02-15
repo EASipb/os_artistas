@@ -1,0 +1,58 @@
+include ../organismos/nav
+
+
+
+section
+    .text-center
+        include ../moleculas/h1
+
+
+section#menu
+    .row
+        .col.d-flex.justify-content-center.p-4
+        
+            include ../organismos/filtro
+
+section#horarios 
+    .card
+        img.card-img(src="")
+        .card-img-overlay
+
+    include ../moleculas/btn
+
+
+section#calendarios
+    .decptext.text-center
+        h1 Calendário Escolar | Calendário de Exames
+        
+    .decptext.text-center
+        h2 1º Semestre
+
+    .decptext.text-center
+        p.lead 22/01/2024 a 17/02/2025
+
+    .decptext.text-center
+        h2 2º Semestre
+
+    .decptext.text-center
+        p.lead 19/02/2025 a 13/07/2025
+
+    .decptext.text-center
+        h2 Pausas
+
+    .decptext.text-center
+        p.lead Pausa Natal: 18/12/2024 a 02/01/2025
+        p.lead Pausa Académica: 15/01/2025 a 20/01/2025
+        p.lead Pausa Páscoa: 25/03/2025 a 01/04/2025
+        p.lead Pausa Académica: 10/06/2025 a 15/06/2025
+
+
+    .container.d-flex.justify-content-center.pt-5 
+            a(href="http://www.ipb.pt/go/dz149").ectsbtn.btn.btn-outline-secondary.rounded-pill.px-4 Download Calendário Escolar
+
+    .container.d-flex.justify-content-center.pt-5
+            a(href="https://webdocs.ipb.pt/portal/download?docId=12853").ectsbtn.btn.btn-outline-secondary.rounded-pill.px-4.me-2 Download Calendário de Exames (Licenciaturas)
+    .container.d-flex.justify-content-center.pt-5
+            a(href="https://webdocs.ipb.pt/portal/download?docId=12854").ectsbtn.btn.btn-outline-secondary.rounded-pill.px-4 Download Calendário de Exames (Mestrados)
+
+include ../organismos/footer
